@@ -1,0 +1,4 @@
+# Kali Linux Repository (using Trixie/Testing)
+deb http.kali.org kali-rolling main contrib non-free non-free-firmware
+deb-src http.kali.org kali-rolling main contrib non-free non-free-firmware
+

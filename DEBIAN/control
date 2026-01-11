@@ -1,0 +1,5 @@
+Package: stacheldrath-kalirepo
+Version: 0.1
+Maintainer: John Kramer
+Architecture: all
+Description: Configures the Kali Linux repositories
