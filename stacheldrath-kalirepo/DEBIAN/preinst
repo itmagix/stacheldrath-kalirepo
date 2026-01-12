@@ -3,9 +3,9 @@
 set -e
 
 echo "Downloading Kali Linux Repository keyring archive..."
-https://http.kali.org/pool/main/k/kali-archive-keyring/kali-archive-keyring_2025.1_all.deb
+wget https://http.kali.org/pool/main/k/kali-archive-keyring/kali-archive-keyring_2025.1_all.deb
 
 echo "Installing Kali Linux Repository keyring..."
-apt install -y ./kali-archive-keyring_2025.1_all.deb
+dpkg -i ./kali-archive-keyring_2025.1_all.deb
 
 exit 0
