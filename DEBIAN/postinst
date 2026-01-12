@@ -1,8 +1,0 @@
-#!/bin/bash
-
-set -e
-
-echo "Update apt Kali registry index"
-apt update
-
-exit 0
